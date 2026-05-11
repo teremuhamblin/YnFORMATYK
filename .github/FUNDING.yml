@@ -1,0 +1,21 @@
+# ============================================================
+#  YnFOR — Funding Configuration
+#  Soutien au développement et à l’innovation
+# ============================================================
+
+# GitHub Sponsors (sans @)
+github: teremuhamblin
+
+# Plateformes de soutien supplémentaires (optionnelles)
+# liberapay: teremuhamblin
+# ko_fi: teremuhamblin
+
+# Liens personnalisés (site, dons, entreprise, etc.)
+custom:
+  - https://github.com/teremuhamblin
+  # - https://ynfor.example.com/soutenir   # (à activer si tu veux)
+  # - https://buymeacoffee.com/teremu      # (optionnel)
+
+# ============================================================
+#  Merci de soutenir YnFOR — Projet informatique professionnel
+# ============================================================
