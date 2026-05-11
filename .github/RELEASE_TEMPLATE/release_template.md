@@ -1,12 +1,16 @@
-# 🚀 Release YnFOR
+# 🚀 Release Notes — YnFOR
 
-## Nouveautés
+## 🎯 Nouveautés
 - …
 
-## Corrections
+## 🛠️ Corrections
 - …
 
-## Améliorations
+## ⚡ Améliorations
 - …
 
-## Notes
+## 🔗 Issues liées
+- …
+
+## 🧪 Tests
+- …
