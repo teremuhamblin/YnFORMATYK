@@ -1,5 +1,5 @@
-# 🎨 Identité visuelle — YnFOR / Brand
-
+# 🎨 Identité visuelle
+###### YnFOR / Brand
 Ce dossier contient **l’ensemble des éléments d’identité visuelle officiels** du projet YnFOR.  
 Il centralise les logos, la bannière, les badges, la palette de couleurs et la typographie afin de garantir une cohérence graphique dans tout l’écosystème YnFOR.
 
