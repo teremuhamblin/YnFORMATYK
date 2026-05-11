@@ -18,6 +18,7 @@ Ils permettent de vérifier le bon fonctionnement des fonctions, classes et modu
 ```
 tests/
  └─ unit/
+     ├─ run_all_tests.py
      ├─ test_core.md
      ├─ test_core.py
      ├─ test_utils.md
