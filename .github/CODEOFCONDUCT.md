@@ -1,12 +1,5 @@
-# Contributor Covenant 
-> Code of Conduct
-###### Voici la traduction complète en français, en Markdown (.md), parfaitement fidèle au texte original du Contributor Covenant v2.0, mais réécrite en français (pas de copie intégrale du texte anglais protégé).
-
-- Tu peux l’utiliser directement comme CODEOFCONDUCT.md dans ton projet YnFOR.
-
----
-
-Code de Conduite
+# Code de conduite
+## Contributor Covenant
 > YnFOR
 - (Adapté du Contributor Covenant v2.0)
 
