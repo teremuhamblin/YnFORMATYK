@@ -1,0 +1,9 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="300" fill="#0D1117"/>
+  <text x="80" y="170" font-family="Segoe UI" font-size="96" fill="#1A6CFF" font-weight="700">
+    YnFOR
+  </text>
+  <text x="85" y="220" font-family="Segoe UI" font-size="32" fill="#00E0FF">
+    Infrastructure • Logiciels • Automatisation
+  </text>
+</svg>
