@@ -1,6 +1,3 @@
-# 🔗 Test d’intégration — Core + API
-
-```python
 from src.core import CoreEngine
 from src.api import ApiClient
 
