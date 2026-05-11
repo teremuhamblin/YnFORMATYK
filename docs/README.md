@@ -15,7 +15,7 @@ Ce dossier contient (ou contiendra) les documents suivants :
 - ARCHITECTURE.md — Structure technique du projet (si ajouté)  
 - GUIDES/ — Guides d’utilisation, tutoriels, procédures internes  
 - API/ — Documentation API (si applicable)    
-- STYLEGUIDE.md — Normes graphiques et design system (optionnel)  
+- StyleGuide.md — Normes graphiques et design system (optionnel)  
 
 ---
 
@@ -39,7 +39,7 @@ docs/
  ├── README.md
  ├── CONVENTIONS.md
  ├── ARCHITECTURE.md
- ├── STYLEGUIDE.md
+ ├── StyleGuide.md
  ├── API/
  │    └── index.md
  └── GUIDES/
