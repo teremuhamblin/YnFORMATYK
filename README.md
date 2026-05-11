@@ -24,30 +24,24 @@ Ce dépôt contient la structure interne, les workflows, les templates et les st
 ---
 
 ### 🤝 Contribution
->Les contributions sont les bienvenues.  
-Merci de suivre les règles définies dans :
-- [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-- les templates de Pull Request
-- les templates d’issues
+###### 👉 Voir [CONTRIBUTING.md](.github/CONTRIBUTING.md)
 
 ---
 
 ### 🔐 Sécurité
-Pour signaler une faille :  
-👉 Voir [SECURITY.md](.github/SECURITY.md)
+###### 👉 Voir [SECURITY.md](.github/SECURITY.md)
 
 ---
 
 ### 👮 Code de conduite
-👉 Voir [CODEOFCONDUCT.md](.github/CODEOFCONDUCT.md)
+###### 👉 Voir [CODEOFCONDUCT.md](.github/CODEOFCONDUCT.md)
 
 ---
 
 ### 👑 Propriétaires du code
-👉 Voir [CODEOWNERS](.github/CODEOWNERS)
+###### 👉 Voir [CODEOWNERS](.github/CODEOWNERS)
 
 ---
 
 ### 📜 Licence
-###### Ce projet peut être utilisé librement à titre d’exemple pédagogique.
-👉 Voir [LICENSE](/LICENSE)
+###### 👉 Voir [LICENSE](/LICENSE)
