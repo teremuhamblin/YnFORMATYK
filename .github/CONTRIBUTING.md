@@ -1,4 +1,5 @@
-# Contributing — YnFOR
+# Contributing
+>YnFOR
 
 Merci de votre intérêt pour contribuer à YnFOR.  
 Ce document explique les règles simples pour maintenir un projet propre et cohérent.
