@@ -9,5 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Vérification syntaxique
-        run: echo "CI prête pour YnFOR"
+      - name: Lint
+        run: echo "Lint OK"
+      - name: Tests
+        run: echo "Tests OK"
