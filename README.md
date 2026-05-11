@@ -50,4 +50,4 @@ Pour signaler une faille :
 
 ### 📜 Licence
 ###### Ce projet peut être utilisé librement à titre d’exemple pédagogique.
-👉 Voir [LICENSE](.github/LICENSE)
+👉 Voir [LICENSE](/LICENSE)
