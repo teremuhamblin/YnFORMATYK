@@ -18,9 +18,12 @@ Ils permettent de vérifier le bon fonctionnement des fonctions, classes et modu
 ```
 tests/
  └─ unit/
+     ├─ test_core.md
      ├─ test_core.py
+     ├─ test_utils.md
      ├─ test_utils.py
-     ├─ test_api.py
+     ├─ test_core.md
+     ├─ test_core.py
      └─ README.md
 ```
 
