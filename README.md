@@ -79,8 +79,8 @@ Accès rapide :
 ---
 
 ### 🧭 Roadmap & Changelog
-- 🚀 [Roadmap](.github/ROADMAP.md)  
-- 📝 [Changelog](.github/CHANGELOG.md)  
+- 🚀 [Roadmap](ROADMAP.md)  
+- 📝 [Changelog](CHANGELOG.md)  
 
 ---
 
