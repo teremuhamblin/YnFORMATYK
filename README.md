@@ -10,38 +10,137 @@
 - les solutions informatiques professionnelles
 ```
 
-> Ajout des fichiers de base pour initialiser le projet YnFOR :
-```md
-- README.md : présentation du projet
-- CHANGELOG.md : suivi des versions
-- ROADMAP.md : plan d’évolution
-- LICENSE : licence du projet
-- STRUCTURE.md : structure du dépôt
+### 🛰️ Infrastructure & Solutions
+- Informatiques Simples et Mdernes
+
+YnFOR est un projet informatique modulaire, professionnel et évolutif, conçu pour offrir une base solide pour le développement, l’automatisation, la documentation et la gestion de solutions techniques modernes.
+
+Ce dépôt constitue la fondation technique, la documentation, les workflows, les normes et les outils internes nécessaires pour construire un environnement propre, maintenable et scalable.
+
+---
+
+### 🚀 Objectifs du projet
+- Fournir une architecture claire et modulaire  
+- Offrir une documentation professionnelle et centralisée  
+- Mettre en place des workflows CI/CD fiables  
+- Standardiser les conventions de code, commits et branches  
+- Faciliter l’onboarding des contributeurs  
+- Garantir un niveau entreprise dans la qualité du code et des processus  
+
+---
+
+### 📦 Fonctionnalités principales
+- 📚 Documentation complète (`/docs/`)  
+- 🔧 Workflows GitHub Actions (`/.github/workflows/`)  
+- 🛡️ Sécurité renforcée (`SECURITY.md`, audits, process)  
+- 🧱 Architecture modulaire (`architecture.md`)  
+- 🎨 Styleguide professionnel (`styleguide.md`)  
+- 🧪 Tests et bonnes pratiques  
+- 🗂️ Templates d’issues et de PR  
+- 📄 Roadmap, Changelog, Licence  
+
+---
+
+### 📁 Structure du dépôt
+```text
+/
+├── src/                     # Code source (si applicable)
+├── docs/                    # Documentation complète YnFOR
+├── .github/                 # Workflows, templates, règles
+├── tests/                   # Tests unitaires et fonctionnels
+├── LICENSE
+├── README.md                # Ce fichier
+└── package.json / autres    # Selon la stack
 ```
 
-Ce dépôt contient la structure interne, les workflows, les templates et les standards utilisés par YnFOR.
+---
 
 ---
 
-### 🤝 Contribution
-###### 👉 Voir [CONTRIBUTING.md](.github/CONTRIBUTING.md)
+## 📚 Documentation
+
+Toute la documentation est centralisée dans :
+
+👉 `/docs/`
+
+Accès rapide :
+
+- 🏗️ [Architecture](docs/architecture.md)  
+- 🎨 [Styleguide](docs/styleguide.md)  
+- 🛠️ [Installation](docs/installation.md)  
+- 🚀 [Utilisation](docs/utilisation.md)  
+- 🤝 [Contributeurs](docs/contributeurs.md)  
+- 📡 [API](docs/api/index.md)  
+- 📘 Guides avancés  
+  - [Installation avancée](docs/guides/installation_avancee.md)  
+  - [Bonnes pratiques](docs/guides/bonnes_pratiques.md)  
+  - [Troubleshooting](docs/guides/troubleshooting.md)  
 
 ---
 
-### 🔐 Sécurité
-###### 👉 Voir [SECURITY.md](.github/SECURITY.md)
+## 🧭 Roadmap & Changelog
+
+- 🚀 [Roadmap](.github/ROADMAP.md)  
+- 📝 [Changelog](.github/CHANGELOG.md)  
 
 ---
 
-### 👮 Code de conduite
-###### 👉 Voir [CODEOFCONDUCT.md](.github/CODEOFCONDUCT.md)
+## 🛡️ Sécurité
+
+Les règles de sécurité sont définies dans :
+
+- 🔐 [Security Policy](.github/SECURITY.md)  
+- 🔍 Audit interne : `.github/security/audit_process.md`  
+
+Les vulnérabilités doivent être signalées à :  
+📧 **teremuafo.987@gmail.com**
 
 ---
 
-### 👑 Propriétaires du code
-###### 👉 Voir [CODEOWNERS](.github/CODEOWNERS)
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues.  
+Merci de lire :
+
+- 📘 `.github/CONTRIBUTING.md`  
+- 🧭 `.github/CODE_OF_CONDUCT.md`  
+- 📝 Templates d’issues et PR dans `.github/ISSUE_TEMPLATE/` et `.github/PULL_REQUEST_TEMPLATE/`  
 
 ---
 
-### 📜 Licence
-###### 👉 Voir [LICENSE](/LICENSE)
+## 🧪 Qualité & CI/CD
+
+Les workflows GitHub Actions assurent :
+
+- Vérifications automatiques  
+- Tests  
+- Analyse statique  
+- Release management  
+- Mise à jour des badges  
+
+Voir :  
+👉 `.github/workflows/`
+
+---
+
+## 📄 Licence
+
+Ce projet est distribué sous licence :  
+➡️ [LICENSE](LICENSE)
+
+---
+
+## 💙 Soutenir le projet
+
+Tu peux soutenir YnFOR via GitHub Sponsors :
+
+➡️ `.github/FUNDING.yml`
+
+---
+
+## 🧬 Vision YnFOR
+
+YnFOR n’est pas seulement un dépôt.  
+C’est une base technologique, une méthodologie, une identité, un standard de qualité.
+
+Un projet conçu pour durer, évoluer, et servir de fondation à des solutions informatiques modernes, propres et professionnelles.
