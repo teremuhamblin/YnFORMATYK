@@ -1,4 +1,5 @@
-# Security Policy — YnFOR
+# Security Policy
+>YnFOR
 
 Merci de contribuer à la sécurité du projet.
 
