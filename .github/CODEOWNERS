@@ -1,0 +1,10 @@
+# CODEOWNERS
+# Définition des responsables du code pour le projet YnFOR
+
+# Propriétaire global du dépôt
+* @teremuhamblin 
+
+# Dossiers spécifiques (si tu en ajoutes plus tard)
+# /docs/ @teremuhamblin 
+# /scripts/ @teremuhamblin 
+# /src/ @teremuhamblin 
