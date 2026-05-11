@@ -1,11 +1,17 @@
 # 🎨 Assets — YnFOR
+>Le dossier `assets/` regroupe toutes les ressources statiques utilisées par le projet **YnFOR**.
 
-Le dossier `assets/` regroupe toutes les ressources statiques utilisées par le projet **YnFOR**.
+# 📁 Assets YnFOR
+>Ce dossier contient l'identité visuelle officielle du projet YnFOR.
+
+## Sous-dossiers
+- brand/ : logos, badges, palette, typographie
+- icons/ : icônes du projet
+- illustrations/ : schémas, diagrammes, visuels techniques
 
 ---
 
 ## 📁 Contenu
-
 - **images/** — Logos, illustrations, visuels  
 - **icons/** — Icônes SVG/PNG  
 - **fonts/** — Polices d’écriture  
