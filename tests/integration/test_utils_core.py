@@ -1,6 +1,3 @@
-# 🔗 Test d’intégration — Utils + Core
-
-```python
 from src.utils import normalize_text
 from src.core import CoreEngine
 
