@@ -37,9 +37,9 @@
 - 🛡️ Sécurité renforcée
 >(`SECURITY.md`, audits, process)  
 - 🧱 Architecture modulaire
->(`architecture.md`)  
+>(`ARCHITECTURE.md`)  
 - 🎨 Styleguide professionnel
->(`styleguide.md`)  
+>(`StyleGuide.md`)  
 - 🧪 Tests et bonnes pratiques  
 - 🗂️ Templates d’issues et de PR  
 - 📄 Roadmap, Changelog, Licence  
