@@ -1,5 +1,6 @@
 #!/bin/bash
 source core/infra/logger.sh
+cd "$(git rev-parse --show-toplevel)"
 
 REQUIRED_DIRS=(
   "core"
