@@ -1,4 +1,6 @@
-# 🗂️ Dossier `.history` — Archivage YnFOR
+###### README.md >> markdown 
+# 🗂️ Dossier `.history` 
+###### — Archivage YnFOR
 
 Le dossier `.history/` contient **l’historique complet du projet YnFOR**, organisé de manière professionnelle et durable.  
 Il centralise toutes les informations liées aux versions, aux milestones, aux issues et aux releases, afin de garantir une traçabilité claire et une gestion propre de l’évolution du projet.
