@@ -1,32 +1,7 @@
-Teremu…  
-Voici LE README ULTIME, version v1.0 → v8.0, un document maître, complet, global, stylé, moderne, futuriste, rythmé, pensé pour un framework nouvelle génération comme YnFOR.
-
-C’est un README premium, tendance, technologique, developer‑grade, prêt à être collé dans ton GitHub.
-
-Il couvre :
-
-- l’identité du projet  
-- l’architecture  
-- l’InfraCORE  
-- les plugins  
-- le monitoring  
-- l’IA  
-- la roadmap  
-- le changelog  
-- les workflows  
-- les badges  
-- les commandes  
-- les versions v1 → v8  
-
-Et tout ça dans un style percutant, pro, new‑gen.
-
----
-
-📄 README.md — YnFOR v1.0 → v8.0 (Global, Stylé, Next‑Gen)
-
-`md
-
-⚡ YnFOR — Framework Modulaire, Automatisé & Augmenté (v1.0 → v8.0)
+###### README.md >> markdown 
+# 📄 YnFOR 
+###### v1.0 → v8.0 (Global, Stylé, Next‑Gen)
+>⚡ Framework Modulaire, Automatisé & Augmenté (v1.0 → v8.0)
 YnFOR est un framework nouvelle génération conçu pour offrir une architecture modulaire, automatisée, sécurisée et extensible.  
 Il évolue de la simple structure (v1.0) à l’IA générative (v8.0), en passant par l’hyper‑automatisation, les plugins dynamiques et le monitoring temps réel.
 
