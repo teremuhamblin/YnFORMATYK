@@ -1,0 +1,25 @@
+name: YnFOR Infra Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  infra:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Donner les droits d'exécution
+        run: chmod +x core/infra/*.sh
+
+      - name: Vérifier la structure YnFOR
+        run: ./core/infra/validator.sh
+
+      - name: Charger les modules YnFOR
+        run: ./core/infra/loader.sh
+
+      - name: Lancer le runtime YnFOR
+        run: ./core/infra/runtime.sh
