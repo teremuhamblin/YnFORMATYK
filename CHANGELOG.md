@@ -1,89 +1,93 @@
-###### CHANGELOG.md >> markdown 
-# YnFOR
-## v1.5.0 — Tests complets & structuration globale (2026-05-11)
-### ✔️ Nouveaux dossiers & architecture
-- [x] Ajout du dossier `unit/` avec scripts de tests unitaires
-- [x] Ajout du dossier `integration/` avec README + scripts dédiés
-- [x] Ajout du dossier `e2e/` pour les tests de bout en bout
-- [x] Ajout du fichier global `tests.md` pour documenter tous les types de tests
-- [x] Ajout du dossier `.history/` pour stocker milestones, issues et releases
-
-### ✔️ Tests & automatisation
-- [x] Création des fichiers : `test_utils.py`, `test_core.py`, `test_api.py`
-- [x] Script Python global pour exécuter tous les tests unitaires
-- [x] Script Python complet pour les tests d’intégration
-- [x] Script Python E2E complet (pipeline de bout en bout)
-
-### ✔️ Documentation
-- [x] README.md pour `tests/`, `integration/`, `e2e/`, `.history/`
-- [x] Documentation d’utilisation complète pour les tests E2E
-- [x] Mise à jour du CHANGELOG.md et ROADMAP.md à la v1.5
-
-### ✔️ Gestion de projet
-- [x] Milestone v1.5.0 créé
-- [x] Issue v1.5.0 complète avec cases cochées
-- [x] Release v1.5.0 stable publiée
+# 📝 CHANGELOG — YnFOR (v1.0 → v5.0)
+Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelog clair, moderne et percutant.
 
 ---
 
-## v1.4.0 — Préparation des tests & harmonisation (2026-05-10)
+# 🔰 v1.x — Fondation & Mise en place
 
-### ✔️ Préparation des environnements de tests
-- [x] Mise en place de la structure initiale pour `unit/`, `integration/`, `e2e/`
-- [x] Ajout des premiers scripts de test minimalistes
-- [x] Ajout des dépendances nécessaires aux tests
+## ⭐ v1.0 — Initialisation du projet
+- [x] Création du dépôt YnFOR  
+- [x] Mise en place de l’arborescence initiale (`core/`, `assets/`, `docs/`, `tests/`)  
+- [x] Ajout des premiers scripts internes  
+- [x] Documentation initiale (README, STRUCTURE.md v1)  
 
-### ✔️ Documentation
-- [x] Ajout d’un guide interne sur la stratégie de tests
-- [x] Mise à jour du README global pour inclure la section "Tests"
-
-### ✔️ Nettoyage & harmonisation
-- [x] Réorganisation des dossiers internes
-- [x] Harmonisation des noms de fichiers et conventions internes
-
----
-
-## v1.3.0 — Structuration avancée & optimisation interne (2026-05-08)
-
-### ✔️ Architecture & organisation
-- [x] Réorganisation complète du projet pour préparer les tests
-- [x] Ajout d’un dossier `core/` mieux structuré
-- [x] Ajout d’un dossier `utils/` avec fonctions isolées
-
-### ✔️ Documentation
-- [x] Mise à jour du README principal
-- [x] Ajout d’un guide interne pour contributeurs
-
-### ✔️ Améliorations techniques
-- [x] Optimisation des modules internes
-- [x] Ajout de logs plus propres et mieux structurés
+## ⭐ v1.5 — Organisation & Cohérence
+- [x] Réorganisation complète de la structure  
+- [x] Ajout des conventions internes  
+- [x] Documentation enrichie  
+- [x] Préparation du futur InfraCORE  
 
 ---
 
-## v1.2.0 — Ajout des premières fonctionnalités majeures (2026-05-05)
+# ⚙️ v2.x — Modularité & Pipeline interne
 
-### ✔️ Nouvelles fonctionnalités
-- [x] Ajout des premières fonctions utilitaires
-- [x] Ajout du module API minimal
-- [x] Ajout du module CORE initial
+## ⭐ v2.0 — Système de modules
+- [x] Création du dossier `modules/`  
+- [x] Standardisation des modules (`init.sh`, `config`, `hooks`)  
+- [x] Ajout des premiers modules internes  
+- [x] Tests unitaires basiques  
 
-### ✔️ Documentation
-- [x] Création du premier CHANGELOG.md
-- [x] Ajout d’un README pour `src/`
-
-### ✔️ Organisation
-- [x] Mise en place de la structure initiale du projet
-- [x] Ajout des premiers scripts Python
+## ⭐ v2.5 — Pipeline interne
+- [x] Ajout d’un pipeline interne pré‑InfraCORE  
+- [x] Normalisation des logs internes  
+- [x] Ajout des tests E2E (Python)  
+- [x] Préparation du runtime interne  
 
 ---
 
-## v1.1.0 — Version de stabilisation initiale (2026-05-01)
+# 🧬 v3.x — InfraCORE & Automatisation CI/CD
 
-### ✔️ Base du projet
-- [x] Stabilisation du code existant
-- [x] Nettoyage des fichiers inutiles
-- [x] Mise en place des conventions internes
+## ⭐ v3.0 — Naissance d’InfraCORE
+- [x] Création du dossier `core/infra/`  
+- [x] Ajout du logger standardisé  
+- [x] Ajout du validator (structure stricte)  
+- [x] Ajout du loader (modules auto‑détectés)  
+- [x] Ajout du runtime YnFOR  
+- [x] Ajout du fichier `module-registry.json`  
+- [x] Ajout du dossier `config/` + `ynfor.conf`  
 
-### ✔️ Documentation
-- [x] Ajout des premiers fichiers README
-- [x] Documentation minimale pour les modules existants
+## ⭐ v3.5 — CI/CD & GitHub Actions
+- [x] Ajout du workflow InfraCORE (validator → loader → runtime)  
+- [x] Correction automatique via Autofix GitHub  
+- [x] Mise à jour des permissions GitHub Actions  
+- [x] Compatibilité Node.js 24  
+- [x] Nettoyage YAML & optimisation des steps  
+
+---
+
+# 🛡️ v4.x — Sécurité & Analyse statique
+
+## ⭐ v4.0 — CodeQL avancé
+- [x] Ajout du workflow CodeQL personnalisé  
+- [x] Désactivation du Default Setup CodeQL  
+- [x] Scan ciblé sur `actions`  
+- [x] Suppression des faux positifs Python  
+- [x] Compatibilité CodeQL 2026+  
+- [x] Résolution des warnings de configuration  
+
+## ⭐ v4.5 — Stabilisation & Qualité
+- [x] Correction des erreurs structurelles détectées par la CI  
+- [x] Harmonisation des logs (INFO / STEP / OK / ERROR)  
+- [x] Documentation InfraCORE mise à jour  
+- [x] STRUCTURE.md v2  
+- [x] ROADMAP.md v2  
+
+---
+
+# 🚀 v5.x — Hyper‑Automatisation & Maturité
+
+## ⭐ v5.0 — Release majeure
+- [x] Stabilisation complète d’InfraCORE  
+- [x] CI/CD 100% automatisée  
+- [x] CodeQL 100% propre  
+- [x] Workflows modernisés (Node 24, actions v4 ready)  
+- [x] Documentation complète (README, STRUCTURE, ROADMAP)  
+- [x] Release v5.0 publiée  
+- [x] Milestone v3.0 → v5.0 complétée  
+- [x] Issue globale fermée  
+
+---
+
+# 🏁 Résumé global
+YnFOR a évolué d’un simple squelette (v1.0) à un framework **modulaire, automatisé, sécurisé et professionnel** (v5.0).  
+La base est solide, la CI est propre, l’infra est stable, et le projet est prêt pour les versions avancées (v6+).
