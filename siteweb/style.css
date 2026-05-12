@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    background: #0a0f1f;
+    color: #d6e2ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #0a0f1f, #111a33);
+}
+
+.title {
+    font-size: 4rem;
+    color: #4cc9f0;
+    text-shadow: 0 0 20px #4cc9f0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #4cc9f0;
+    color: #0a0f1f;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #72e6ff;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.code {
+    background: #111a33;
+    padding: 20px;
+    border-radius: 8px;
+    color: #72e6ff;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111a33;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #4cc9f0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #4cc9f0;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.nav-links a {
+    color: #4cc9f0;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
