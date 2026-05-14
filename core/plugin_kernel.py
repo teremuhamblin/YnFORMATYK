@@ -35,7 +35,11 @@ class PluginKernel:
     def __init__(self, base_dir: Path):
         self.base_dir = base_dir
         self.plugins = {}
+        self.context = {}  # nécessaire pour reload_plugin()
 
+    # ---------------------------------------------------------
+    # 🔍 Découverte des plugins
+    # ---------------------------------------------------------
     def discover_plugins(self):
         plugins_root = self.base_dir / "plugins"
         for scope in ["core", "community", "external"]:
@@ -54,11 +58,15 @@ class PluginKernel:
                 rel_path = f"plugins.{scope}.{plugin_dir.name}"
                 self.plugins[name] = Plugin(name, rel_path, manifest)
 
+    # ---------------------------------------------------------
+    # 🔧 Cycle de vie global
+    # ---------------------------------------------------------
     def load_all(self):
         for plugin in self.plugins.values():
             plugin.load()
 
     def init_all(self, context):
+        self.context = context  # stocké pour reload_plugin()
         for plugin in self.plugins.values():
             plugin.init(context)
 
@@ -69,3 +77,27 @@ class PluginKernel:
     def stop_all(self):
         for plugin in self.plugins.values():
             plugin.stop()
+
+    # ---------------------------------------------------------
+    # 🔥 Hot‑Reload intégré
+    # ---------------------------------------------------------
+    def reload_plugin(self, name):
+        if name not in self.plugins:
+            print(f"[HotReload] Plugin inconnu : {name}")
+            return
+
+        plugin = self.plugins[name]
+        print(f"[HotReload] Rechargement : {name}")
+
+        # 1. Stop propre
+        plugin.stop()
+
+        # 2. Reload du module Python
+        importlib.reload(plugin.module)
+
+        # 3. Rechargement complet
+        plugin.load()
+        plugin.init(self.context)
+        plugin.start()
+
+        print(f"[HotReload] Plugin rechargé : {name}")
