@@ -1,0 +1,6 @@
+enabled_scopes:
+  - core
+  - community
+  - external
+
+disabled_plugins: []
