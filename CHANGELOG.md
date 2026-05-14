@@ -1,10 +1,9 @@
-# 📝 CHANGELOG — YnFOR (v1.0 → v5.0)
+# 📝 CHANGELOG — YnFOR (v1.0 → v6.0)
 Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelog clair, moderne et percutant.
 
 ---
 
 # 🔰 v1.x — Fondation & Mise en place
-
 ## ⭐ v1.0 — Initialisation du projet
 - [x] Création du dépôt YnFOR  
 - [x] Mise en place de l’arborescence initiale (`core/`, `assets/`, `docs/`, `tests/`)  
@@ -20,7 +19,6 @@ Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelo
 ---
 
 # ⚙️ v2.x — Modularité & Pipeline interne
-
 ## ⭐ v2.0 — Système de modules
 - [x] Création du dossier `modules/`  
 - [x] Standardisation des modules (`init.sh`, `config`, `hooks`)  
@@ -36,7 +34,6 @@ Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelo
 ---
 
 # 🧬 v3.x — InfraCORE & Automatisation CI/CD
-
 ## ⭐ v3.0 — Naissance d’InfraCORE
 - [x] Création du dossier `core/infra/`  
 - [x] Ajout du logger standardisé  
@@ -56,7 +53,6 @@ Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelo
 ---
 
 # 🛡️ v4.x — Sécurité & Analyse statique
-
 ## ⭐ v4.0 — CodeQL avancé
 - [x] Ajout du workflow CodeQL personnalisé  
 - [x] Désactivation du Default Setup CodeQL  
@@ -75,7 +71,6 @@ Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelo
 ---
 
 # 🚀 v5.x — Hyper‑Automatisation & Maturité
-
 ## ⭐ v5.0 — Release majeure
 - [x] Stabilisation complète d’InfraCORE  
 - [x] CI/CD 100% automatisée  
@@ -88,6 +83,13 @@ Toutes les évolutions majeures du framework YnFOR, regroupées dans un changelo
 
 ---
 
+# 🚀 v6.x — Hyper‑Automatisation & Maturité
+## ⭐ v6.0 — Mise à jour majeure
+- Ajout du Plugin Kernel (découverte, chargement, cycle de vie)
+- Support des dossiers `plugins/core`, `plugins/community`, `plugins/external`
+- Système de hooks de base (`pre_run`, `post_run`, `on_error`)
+- Exemple de plugin core : `example_core_plugin`
+
 # 🏁 Résumé global
-YnFOR a évolué d’un simple squelette (v1.0) à un framework **modulaire, automatisé, sécurisé et professionnel** (v5.0).  
-La base est solide, la CI est propre, l’infra est stable, et le projet est prêt pour les versions avancées (v6+).
+YnFOR a évolué d’un simple squelette (v1.0) à un framework **modulaire, automatisé, sécurisé et professionnel** (v6.0).  
+La base est solide, la CI est propre, l’infra est stable, et le projet est prêt pour les versions avancées (v7+).
