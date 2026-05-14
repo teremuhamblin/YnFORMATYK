@@ -1,0 +1,16 @@
+{
+  "default": {
+    "filesystem": false,
+    "network": false,
+    "telemetry": false,
+    "hooks": true
+  },
+  "plugins": {
+    "example_core_plugin": {
+      "filesystem": false,
+      "network": false,
+      "telemetry": true,
+      "hooks": true
+    }
+  }
+}
