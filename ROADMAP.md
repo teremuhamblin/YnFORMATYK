@@ -1,4 +1,4 @@
-# 🗺️ YnFOR — Roadmap Globale (v1.0 → v5.0)
+# 🗺️ YnFOR — Roadmap Globale (v1.0 → v6.0)
 Framework modulaire, automatisé et sécurisé pour développeurs exigeants.  
 Cette roadmap retrace l’évolution complète du projet, de la fondation (v1.x) à l’hyper‑automatisation (v5.x).
 
