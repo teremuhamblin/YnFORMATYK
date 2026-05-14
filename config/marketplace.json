@@ -1,0 +1,4 @@
+marketplace:
+  enabled: true
+  sources:
+    - https://omniversecore/catalog.json
