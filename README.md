@@ -13,6 +13,13 @@
 - les solutions informatiques professionnelles
 ```
 
+<p align="left">
+  <img src="assets/badge/ynfor_official_animated.svg" height="36">
+  <img src="assets/badge/quantum_engine_animated.svg" height="36">
+  <img src="assets/badge/ynfor_bot_animated.svg" height="36">
+  <img src="assets/badge/plugin_system_v8_animated.svg" height="36">
+</p>
+
 ### 🛰️ Infrastructure & Solutions
 [![Release](https://github.com/teremuhamblin/YnFOR/actions/workflows/release.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/release.yml)
 - Informatiques Simples et Mdernes
