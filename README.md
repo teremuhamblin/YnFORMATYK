@@ -139,13 +139,17 @@ Tu peux soutenir YnFOR via GitHub Sponsors :
 ➡️ `.github/FUNDING.yml`
 ```
 
----
+<p align="center">
+  <a href="https://github.com/sponsors/teremuhamblin">
+    <img src="https://img.shields.io/badge/GitHub_Sponsors-teremuhamblin-ff4081?style=for-the-badge&logo=githubsponsors&logoColor=white">
+  </a>
+  <a href="https://patreon.com/tonpseudo">
+    <img src="https://img.shields.io/badge/Patreon-themaddog-F96854?style=for-the-badge&logo=patreon&logoColor=white">
+  </a>
+</p>
 
-`
 ### 🧬 Vision YnFOR
 ###### YnFOR n’est pas seulement un dépôt.  
 C’est une base technologique, une méthodologie, une identité, un standard de qualité.
-`
-`
 ###### Un projet conçu pour durer, évoluer, et servir de fondation à des solutions informatiques modernes, propres et professionnelles.
-`
+
