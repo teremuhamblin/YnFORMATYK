@@ -81,6 +81,7 @@ Accès rapide :
 ---
 
 ### 🧭 Roadmap & Changelog
+[![CI](https://github.com/teremuhamblin/YnFOR/actions/workflows/ci.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/ci.yml)
 - 🚀 [Roadmap](ROADMAP.md)  
 - 📝 [Changelog](CHANGELOG.md)  
 
