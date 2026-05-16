@@ -1,0 +1,21 @@
+<svg width="220" height="36" viewBox="0 0 220 36" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="shimmer" x1="-100%" y1="0" x2="200%" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="220" height="36" rx="6" fill="#020617"/>
+  <rect width="140" height="36" rx="6" fill="url(#shimmer)">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="15" y="23" font-family="Inter" font-size="14" fill="#FFFFFF">Quantum‑Era</text>
+  <text x="155" y="23" font-family="Inter" font-size="14" fill="#8B5CF6">Engine</text>
+
+</svg>
