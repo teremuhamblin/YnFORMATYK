@@ -141,7 +141,9 @@ Tu peux soutenir YnFOR via GitHub Sponsors :
 
 ---
 
+```md
 ### 🧬 Vision YnFOR
 ###### YnFOR n’est pas seulement un dépôt.  
 C’est une base technologique, une méthodologie, une identité, un standard de qualité.
 ###### Un projet conçu pour durer, évoluer, et servir de fondation à des solutions informatiques modernes, propres et professionnelles.
+```
