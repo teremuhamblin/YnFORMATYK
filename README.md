@@ -116,6 +116,14 @@ Les vulnérabilités doivent être signalées à :
 ---
 
 ### 🧪 Qualité & CI/CD
+
+<svg width="230" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="230" height="32" rx="6" fill="#0D1117"/>
+  <rect width="140" height="32" rx="6" fill="#2563EB"/>
+  <text x="12" y="21" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF">YnFOR Plugins</text>
+  <text x="155" y="21" font-family="Inter, sans-serif" font-size="14" fill="#8B5CF6">Advanced</text>
+</svg>
+
 Les workflows GitHub Actions assurent :
 - Vérifications automatiques  
 - Tests  
