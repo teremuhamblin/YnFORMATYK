@@ -34,7 +34,10 @@
 
 ---
 
-### 📦 Fonctionnalités principales
+### Fonctionnalités principales
+
+![YnFOR Bot](assets/badges/bot.svg)
+
 - 📚 Documentation complète
 >(`/docs/`)  
 - 🔧 Workflows GitHub Actions
