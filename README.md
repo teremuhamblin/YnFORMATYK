@@ -105,8 +105,8 @@ Les vulnérabilités doivent être signalées à :
 
 ### 🤝 Contribuer
 [![YnFOR Bot](https://github.com/teremuhamblin/YnFOR/actions/workflows/bot.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/bot.yml)
-Les contributions sont les bienvenues.  
-Merci de lire :
+>Les contributions sont les bienvenues.  
+- Merci de lire :
 ```md
 - 📘 `.github/CONTRIBUTING.md`  
 - 🧭 `.github/CODE_OF_CONDUCT.md`  
