@@ -1,0 +1,16 @@
+<svg width="220" height="36" viewBox="0 0 220 36" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="220" height="36" rx="6" fill="#0D1117"/>
+
+  <rect width="130" height="36" rx="6" fill="#10B981">
+    <animate attributeName="x" values="-10;0;-10" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="15" y="23" font-family="Inter" font-size="14" fill="#FFFFFF">YnFOR Bot</text>
+
+  <text x="150" y="23" font-family="Inter" font-size="14" fill="#8B5CF6">
+    Automated
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+</svg>
