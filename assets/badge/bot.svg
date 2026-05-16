@@ -1,0 +1,6 @@
+<svg width="210" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="210" height="32" rx="6" fill="#0D1117"/>
+  <rect width="120" height="32" rx="6" fill="#10B981"/>
+  <text x="12" y="21" font-family="Inter, sans-serif" font-size="14" fill="#FFFFFF">YnFOR Bot</text>
+  <text x="135" y="21" font-family="Inter, sans-serif" font-size="14" fill="#8B5CF6">Automated</text>
+</svg>
