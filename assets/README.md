@@ -16,7 +16,8 @@
 - **icons/** — Icônes SVG/PNG  
 - **fonts/** — Polices d’écriture  
 - **media/** — Vidéos, sons, animations  
-- **brand/** — Identité visuelle, éléments graphiques YnFOR  
+- **brand/** — Identité visuelle, éléments graphiques YnFOR
+- **themes** : thème global du projet
 
 ---
 
