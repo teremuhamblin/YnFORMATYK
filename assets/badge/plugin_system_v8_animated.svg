@@ -1,0 +1,21 @@
+<svg width="260" height="36" viewBox="0 0 260 36" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="loop" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+      <animate attributeName="x1" values="0%;100%" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="260" height="36" rx="6" fill="#0F172A"/>
+  <rect width="150" height="36" rx="6" fill="url(#loop)">
+    <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="15" y="23" font-family="Inter" font-size="14" fill="#FFFFFF">Plugin System</text>
+  <text x="170" y="23" font-family="Inter" font-size="14" fill="#8B5CF6">v8.0</text>
+
+</svg>
