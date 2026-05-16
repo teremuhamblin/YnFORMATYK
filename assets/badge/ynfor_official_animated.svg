@@ -1,0 +1,28 @@
+<svg width="200" height="36" viewBox="0 0 200 36" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB">
+        <animate attributeName="offset" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8B5CF6">
+        <animate attributeName="offset" values="0.5;1.5;0.5" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="200" height="36" rx="6" fill="#0D1117"/>
+  <rect width="110" height="36" rx="6" fill="url(#grad)" filter="url(#glow)"/>
+
+  <text x="15" y="23" font-family="Inter" font-size="14" fill="#FFFFFF">YnFOR</text>
+  <text x="125" y="23" font-family="Inter" font-size="14" fill="#8B5CF6">Official</text>
+
+</svg>
