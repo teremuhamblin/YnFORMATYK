@@ -36,7 +36,7 @@
 
 ### Fonctionnalités principales
 
-![YnFOR Bot](assets/badges/bot.svg)
+![YnFOR Bot](assets/badge/bot.svg)
 
 - 📚 Documentation complète
 >(`/docs/`)  
