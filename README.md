@@ -1,5 +1,6 @@
 ###### README.md >>markdown
 - Solutions informatiques simple 💻⚡
+- [![YnFOR Infra Check](https://github.com/teremuhamblin/YnFOR/actions/workflows/ynfor-infra.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/ynfor-infra.yml)
 # YnFOR
 > Bienvenue dans le dépôt officiel de **YnFOR**, une micro-entreprise spécialisée dans :
 ```md
