@@ -19,6 +19,7 @@
 ---
 
 ### 🚀 Objectifs du projet
+[![Test](https://github.com/teremuhamblin/YnFOR/actions/workflows/test.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/test.yml)
 ```text
 - Fournir une architecture claire et modulaire  
 - Offrir une documentation professionnelle et centralisée  
