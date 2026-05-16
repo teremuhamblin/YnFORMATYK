@@ -1,0 +1,14 @@
+name: Run YnFOR Script
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run Python script
+        run: python3 YnFOR_bot.py
