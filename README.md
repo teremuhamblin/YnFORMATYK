@@ -12,6 +12,7 @@
 ```
 
 ### 🛰️ Infrastructure & Solutions
+[![Release](https://github.com/teremuhamblin/YnFOR/actions/workflows/release.yml/badge.svg)](https://github.com/teremuhamblin/YnFOR/actions/workflows/release.yml)
 - Informatiques Simples et Mdernes
 ###### YnFOR est un projet informatique modulaire, professionnel et évolutif, conçu pour offrir une base solide pour le développement, l’automatisation, la documentation et la gestion de solutions techniques modernes.
 ###### Ce dépôt constitue la fondation technique, la documentation, les workflows, les normes et les outils internes nécessaires pour construire un environnement propre, maintenable et scalable.
